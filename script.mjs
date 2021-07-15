@@ -28,7 +28,7 @@ document.addEventListener("scroll", function(){
 $(document).ready(function() {
     $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
-        $('header').css('background-color', '#b8b688');
+        $('header').css('background-color', '#d1d0bc');
         $('header').css('height', '80px');
       } else {
         $('header').css('background-color', '#EDEFE1');
