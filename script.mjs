@@ -28,10 +28,10 @@ document.addEventListener("scroll", function(){
 $(document).ready(function() {
     $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
-        $('header').css('background-color', '#EDEFE1');
+        $('header').css('background-color', '#c7c9bb');
         $('header').css('height', '80px');
       } else {
-        $('header').css('background-color', '#c7c9bb');
+        $('header').css('background-color', '#EDEFE1');
         $('header').css('height', '110px');
       }
     });
